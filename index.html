@@ -16,6 +16,12 @@
 				background-color: #6b6b6b; /* Replace with your desired color code */
 			}
 		</style>
+		<script>
+			// Redirect to #home if no hash is present
+			if (window.location.hash === '') {
+				window.location.replace(window.location.href + '#home');
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 
