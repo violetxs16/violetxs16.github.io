@@ -1,189 +1,110 @@
 <!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Violeta Solorio Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			body {
-				background-color: #6b6b6b; /* Replace with your desired color code */
-			}
-		</style>
-		<script>
-			// Redirect to #home if no hash is present
-			if (window.location.hash === '') {
-				window.location.replace(window.location.href + '#home');
-			}
-		</script>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Violeta Solorio Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        body {
+            background-color: #6b6b6b; /* Replace with your desired color code */
+        }
+    </style>
+    <script>
+        // Redirect to #home if no hash is present
+        if (window.location.hash === '') {
+            window.location.replace(window.location.href + '#home');
+        }
+    </script>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper-->
-			<div id="wrapper">
+    <!-- Wrapper-->
+    <div id="wrapper">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<!--<a href="#" class="icon solid fa-home"><span>Home</span></a>-->
-						<a href="#home" class="icon solid fa-home"><span> Home</span></class></a>
-						<a href="#work" class="icon solid fa-folder"><span>Projects</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-					</nav>
+        <!-- Nav -->
+        <nav id="nav">
+            <a href="#home" class="icon solid fa-home"><span>Home</span></a>
+            <a href="#work" class="icon solid fa-folder"><span>Projects</span></a>
+            <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+        </nav>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- Me -->
-						<article id="home" class="panel intro">
-							<!-- Intro Section -->
-							<header style="text-align: center; margin-bottom: 20px;">
-								<h1>Violeta Solorio</h1>
-								<p>Software Engineer</p>
-							</header>
-							<a href="#home" class="jumplink pic" style="display: block; margin-bottom: 20px; text-align: center;">
-								<img src="images/DSC_4233.jpg" alt="" style="max-width: 100%; height: auto;" />
-							</a>
-							<!-- About Me Section -->
-							<header style="text-align: center; margin-top: 20px; margin-bottom: 10px;">
-								<h1>About Me</h1>
-							</header>
-							<p style="text-align: justify; margin-top: 0;">
-								Greetings Everyone! I am <b>Violeta Solorio</b>, a Computer Science student at the 
-								<u>University of California, Santa Cruz</u>. Fueled by a passion for technology, I specialize in 
-								<b>Python, Java, and C</b>, crafting imaginative projects that showcase my skills.  
-								My mission is to leverage my education to create innovative, inclusive solutions that address real-world challenges. 
-								Currently, I am working on my bachelor's after already completing my associate's degree in Computer Science. 
-								Overall, I'm excited to make an impact in the world with the technical knowledge I have accumulated throughout the years.
-							</p>
-						</article>
-						
-						
-						<!-- Work -->
-							<article id="work" class="panel">
-								<header>
-									<h2>Projects</h2>
-								</header>
-								<p>
-									Using the various programming concepts and languages I have learnt during my academic career, I've built a variety of projects to showcase my skills.
-								</p>
-								<section class="posts">
-									<article>
-										<header>
-											<h2><a href="https://nutrihall.vercel.app/">NutriHall<br />
-											</a></h2>
-											<p><b>React, Node.js, Firebase, Jest</b></p>
-										</header>
-										<a class="image fit"><img style="border:1px solid black;" src="images/NutriHall logo.png" alt="NutriHall Image"/></a>
-										<p>NutriHall is an AI-powered dining hall assistant designed to help UCSC students make healthier eating choices in a simple and efficient way. It allows users to select their dietary preferences and health goals, and provides meal options from campus dining halls that align with these choices. Once preferences are entered, NutriHall generates a personalized meal plan that includes nutritional breakdowns and portion size recommendations. It also tracks dietary goals over time while aiming to reduce food waste.</p>
-										<ul class="actions special">
-											<li><a href="https://nutrihall.vercel.app/" class="button">NutriHall Webpage</a></li>
-										</ul>
-									</article>
-									<article>
-										<header>
-											<h2><a href="https://github.com/violetxs16/Slug-Dining">Slug Dining<br />
-											</a></h2>
-											<p><b>C, Makefile, Docker</b></p>
-										</header>
-										<a class="image fit"><img style="border:1px solid black;" src="images/Slug dining image.png" alt="Slug dining image"/></a>
-										<p> This project involves implementing a multithreaded dining hall management system in C that uses POSIX threads for efficiency and synchronization mechanisms to control access to the dining hall. The system needs to handle students entering and leaving the dining hall while ensuring only a certain number of students can be inside at a time. Additionally, it must manage a cleaning service that requires the dining hall to be empty before it can begin cleaning.</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/violetxs16/Slug-Dining" class="button">FGD Code</a></li>
-										</ul>
-									</article>
-									<article>
-										<header>
-											
-											<h2><a href="https://github.com/violetxs16/Web-Crawler">Web Crawler<br /></a></h2>
-											<p><b>C</b></p>
-										</header>
-										<a class="image fit"><img style="border:1px solid black;" src="images/Crawler Image.png" alt="Crawler Image" /></a>
-										<p>The Web Crawler, is a standalone program that crawls the web and retrieves web pages starting from a “seed” URL. It parses the seed webpage, extracts any embedded URLs, then retrieves each of those pages, recursively, but limiting its exploration to a given “depth”.</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/violetxs16/Web-Crawler" class="button">WC Code</a></li>
-										</ul>
-									</article>
-									<article>
-										<header>
-											
-											<h2><a href="https://github.com/violetxs16/Nano-Interpreter">Nano Interpreter<br /></a></h2>
-											<p><b>Haskell</b></p>
-										</header>
-			
-										<p>The Nano Interpreter project involves implementing a functional programming language interpreter for Nano in Haskell, using abstract syntax trees and environments to evaluate programs. The interpreter supports integers, Booleans, lists, arithmetic and logical operations, conditionals, let-expressions, and recursive functions. It also handles list operations like head and tail, ensuring proper scoping, binding, and error handling.</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/violetxs16/Nano-Interpreter" class="button">NI Code</a></li>
-										</ul>
-									</article>
-									<article>
-										<header>
-											<h2><a href="https://github.com/violetxs16/LRU-Cache">LRU Cache<br /></a></h2>
-											<p><b>C</b></p>
-										</header>
-										<a class="image fit"><img style="border:1px solid black;" src="images/LRU-Cache-pic.png" alt="LRU Cache Picture" /></a>
-										<p>This project implements an LRU (Least Recently Used) Cache in C, designed as an abstract data type with a fixed capacity of three items. When the cache reaches its limit, the least recently used item is automatically evicted to make space for new entries. The implementation combines a set and a hashtable ADT to enable efficient operations, including insertion, lookup, iteration, deletion, and printing of cache contents.</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/violetxs16/LRU-Cache" class="button">LRU Code</a></li>
-										</ul>
-									</article>
-									<article>
-										<header>
-											<h2><a href="https://github.com/violetxs16/Favorite-Game-Database">Favorite Game Database<br />
-											</a></h2>
-											<p><b>PHP, mySQL</b></p>
-										</header>
-										<a class="image fit"><img style="border:1px solid black;" src="images/FGD Html.png" alt="Favorite Game Database Image"/></a>
-										<p>The Favorite Game Database project is an interactive web application designed to let users store and manage their favorite games in a centralized database. Built using a combination of HTML and PHP, the project features a user-friendly form where individuals can input their first name, last name, age, and, most importantly, their favorite game. The PHP backend, equipped with validation mechanisms, securely processes the form submissions and stores the data in a MySQL database managed through phpMyAdmin.</p>
-										<ul class="actions special">
-											<li><a href="https://github.com/violetxs16/Favorite-Game-Database" class="button">FGD Code</a></li>
-										</ul>
-									</article>
-								</section>
-							</article>
+        <!-- Main -->
+        <div id="main">
 
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<section class="split contact">
-									<section>
-										<h3>Email</h3>
-										<p><a href="mailto:Violeta.solorio16@gmail.com"><b>Violeta.solorio16@gmail.com</b></a></p>
-									</section>
-									<section>
-										<h3>Phone</h3>
-										<p><b>(408) 784-9586</b></p>
-									</section>
-									
-									<section>
-										<h3>Social</h3>
-										<ul class="icons alt">
-											<li><a href="https://www.linkedin.com/in/violetasolorio/" class="fab fa-linkedin"><span class="label"></span><b><u>LinkedIn</u></b></a></li>
-											<li><a href="https://github.com/violetxs16" class="icon brands alt fa-github"><span class="label"></span><b><u>GitHub</u></b></a></li>
-										</ul>
-									</section>
-								</section>
-							</article>
+            <!-- Me -->
+            <article id="home" class="panel intro">
+                <header>
+                    <h1>Violeta Solorio</h1>
+                    <p>Software Engineer</p>
+                </header>
+                <a href="#home" class="jumplink pic">
+                    <img src="images/DSC_4233.jpg" alt="" />
+                </a>
+            </article>
+            
+            <article id="home" class="panel">
+                <header>
+                    <h1>About Me</h1>
+                    <p></p>
+                </header>
+                <p>
+                    Greetings Everyone! I am <b>Violeta Solorio</b>, a Computer Science student at the <u>University of California, Santa Cruz</u>. 
+                    Fueled by a passion for technology, I specialize in <b>Python, Java, and C</b>, crafting imaginative projects that showcase my skills.  
+                    My mission is to leverage my education to create innovative, inclusive solutions that address real-world challenges. 
+                    Currently, I am working on my bachelor's after already completing my associate's degree in Computer Science. 
+                    Overall, I'm excited to make an impact in the world with the technical knowledge I have accumulated throughout the years.
+                </p>
+            </article>
 
-					</div>
+            <!-- Work -->
+            <article id="work" class="panel">
+                <header>
+                    <h2>Projects</h2>
+                </header>
+                <p>
+                    Using the various programming concepts and languages I have learnt during my academic career, I've built a variety of projects to showcase my skills.
+                </p>
+                <!-- Projects go here -->
+            </article>
 
-				<!-- Footer -->
-					
+            <!-- Contact -->
+            <article id="contact" class="panel">
+                <header>
+                    <h2>Contact Me</h2>
+                </header>
+                <section class="split contact">
+                    <section>
+                        <h3>Email</h3>
+                        <p><a href="mailto:Violeta.solorio16@gmail.com"><b>Violeta.solorio16@gmail.com</b></a></p>
+                    </section>
+                    <section>
+                        <h3>Phone</h3>
+                        <p><b>(408) 784-9586</b></p>
+                    </section>
+                    <section>
+                        <h3>Social</h3>
+                        <ul class="icons alt">
+                            <li><a href="https://www.linkedin.com/in/violetasolorio/" class="fab fa-linkedin"><span class="label"></span><b><u>LinkedIn</u></b></a></li>
+                            <li><a href="https://github.com/violetxs16" class="icon brands alt fa-github"><span class="label"></span><b><u>GitHub</u></b></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </article>
 
-			</div>
+        </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <!-- Footer -->
 
-	</body>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
 </html>
